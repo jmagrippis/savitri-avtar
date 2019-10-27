@@ -22,6 +22,10 @@ export const Meta = ({ title }: Props) => (
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css"
       />
+      <meta
+        name="viewport"
+        content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no"
+      />
     </Head>
     <style jsx global>{`
       html,
@@ -46,6 +50,10 @@ export const Meta = ({ title }: Props) => (
         body {
           font-size: 112.5%;
         }
+      }
+
+      strong {
+        font-weight: bolder;
       }
 
       // reset button styles
@@ -73,6 +81,12 @@ export const Meta = ({ title }: Props) => (
       button::-moz-focus-inner {
         border: 0;
         padding: 0;
+      }
+
+      // reset anchor styles
+      a {
+        color: inherit;
+        text-decoration: inherit;
       }
     `}</style>
   </>
