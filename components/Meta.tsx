@@ -33,6 +33,10 @@ export const Meta = ({ title }: Props) => (
         height: 100%;
       }
 
+      html {
+        scroll-behavior: smooth;
+      }
+
       body > div {
         min-height: 100%;
         display: flex;

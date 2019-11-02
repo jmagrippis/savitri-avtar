@@ -1,7 +1,8 @@
 import React, { forwardRef } from 'react'
 import { Grid, Typography, useTheme, Theme } from '@material-ui/core'
+import { Actions } from './Actions'
 
-export const About = forwardRef<HTMLElement>((_, ref) => {
+export const Classes = forwardRef<HTMLElement>((_, ref) => {
   const theme = useTheme<Theme>()
 
   return (
@@ -17,24 +18,20 @@ export const About = forwardRef<HTMLElement>((_, ref) => {
           <Grid item sm={5}>
             <Grid item>
               <Typography variant="h4" component="h2" gutterBottom>
-                About Savitri
+                Classes
               </Typography>
               <Typography variant="body1" paragraph>
-                <strong>Savitri Avtar Kaur</strong> is a Kundalini yogi. Lorem
-                olor, sit amet consectetur adipisicing elit.Saepe m consequatur
-                ipsa exercitationem nisi vitae do m harum voluptate adipisci
-                eligendi sed, obcaecati, a quaerat.Vitae, quos itaque.
-              </Typography>
-              <Typography variant="body1" paragraph>
-                ipsum dolor, sit amet consectetur adipisicing elit.culpa eum
-                onsequatur ipsa exercitationem nisi aboriosam harum voluptate
-                adipisci eligendi sed, obcaecati, a quaerat.Vitae, quos itaque.
+                Lorem olor, sit amet consectetur adipisicing elit.Saepe m
+                consequatur ipsa exercitationem <strong>nisi vitae</strong> do m
+                harum voluptate adipisci eligendi sed, obcaecati, a quaerat.
+                Vitae, quos itaque.
               </Typography>
               <Typography variant="body1" paragraph>
                 ipsum dolor, sit amet consectetur adipisicing elit.culpa eum
                 onsequatur ipsa exercitationem nisi aboriosam harum voluptate
-                adipisci eligendi sed, obcaecati, a quaerat.Vitae, quos itaque.
+                adipisci eligendi sed, obcaecati, a quaerat. Vitae, quos itaque.
               </Typography>
+              <Actions sm={6} />
             </Grid>
           </Grid>
         </Grid>

@@ -1,6 +1,7 @@
 import React from 'react'
 import { useSpring, animated } from 'react-spring'
 import { Grid, Typography, Button } from '@material-ui/core'
+import { Actions } from './Actions'
 
 const slideIn = {
   opacity: 1,
@@ -70,28 +71,7 @@ export const Hero = () => {
 
             <Grid item sm={5}></Grid>
             <Grid item sm={7}>
-              <Grid container spacing={3}>
-                <Grid item xs={12} sm={5}>
-                  <Button
-                    variant="contained"
-                    color="secondary"
-                    size="large"
-                    fullWidth
-                  >
-                    Book a session
-                  </Button>
-                </Grid>
-                <Grid item xs={12} sm={5}>
-                  <Button
-                    variant="outlined"
-                    color="secondary"
-                    size="large"
-                    fullWidth
-                  >
-                    Contact
-                  </Button>
-                </Grid>
-              </Grid>
+              <Actions sm={5} />
             </Grid>
           </Grid>
         </animated.div>
