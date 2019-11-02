@@ -1,6 +1,6 @@
 import React from 'react'
 import { useSpring, animated } from 'react-spring'
-import { Grid, Typography, Button } from '@material-ui/core'
+import { Grid, Typography } from '@material-ui/core'
 import { Actions } from './Actions'
 
 const slideIn = {

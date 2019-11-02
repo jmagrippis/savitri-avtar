@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import { Grid, Button } from '@material-ui/core'
 
 type Props = {
@@ -8,9 +9,11 @@ type Props = {
 export const Actions = ({ sm }: Props) => (
   <Grid container spacing={3}>
     <Grid item xs={12} sm={sm}>
-      <Button variant="contained" color="secondary" size="large" fullWidth>
-        Book a session
-      </Button>
+      <Link href="/book">
+        <Button variant="contained" color="secondary" size="large" fullWidth>
+          Book a session
+        </Button>
+      </Link>
     </Grid>
     <Grid item xs={12} sm={sm}>
       <Button
