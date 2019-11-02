@@ -18,10 +18,10 @@ export const Classes = forwardRef<HTMLElement>((_, ref) => {
           <Grid item sm={5}>
             <Grid item>
               <Typography variant="h4" component="h2" gutterBottom>
-                Classes
+                Why a private class?
               </Typography>
               <Typography variant="body1" paragraph>
-                Lorem olor, sit amet consectetur adipisicing elit.Saepe m
+                Lorem olor, sit amet consectetur adipisicing elit. Saepe m
                 consequatur ipsa exercitationem <strong>nisi vitae</strong> do m
                 harum voluptate adipisci eligendi sed, obcaecati, a quaerat.
                 Vitae, quos itaque.

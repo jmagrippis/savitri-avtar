@@ -7,7 +7,7 @@ import { App } from '../App'
 
 const Home = () => (
   <>
-    <Meta title="Savitri Avtar Kaur - Kundalini Yoga" />
+    <Meta title="Savitri Avtar Kaur - Private Kundalini Yoga" />
     <App>
       <Body />
     </App>

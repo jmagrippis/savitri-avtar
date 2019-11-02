@@ -1,13 +1,9 @@
 import React from 'react'
 import { useSpring, animated } from 'react-spring'
 import { Grid, Typography } from '@material-ui/core'
-import { Actions } from './Actions'
 
-const slideIn = {
-  opacity: 1,
-  transform: 'translate3d(0, 0, 0)',
-  from: { opacity: 0, transform: 'translate3d(0, 50%, 0)' },
-}
+import { Actions } from './Actions'
+import { slideIn } from '../animations'
 
 export const Hero = () => {
   const style = useSpring(slideIn)

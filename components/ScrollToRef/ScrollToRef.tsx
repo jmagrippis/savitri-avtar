@@ -10,7 +10,7 @@ type Props = {
 }
 
 export const ScrollToRef = ({ target }: Props) => (
-  <div className="next-section">
+  <div>
     <Grid container direction="column" alignItems="center">
       <IconButton
         color="primary"
@@ -18,7 +18,7 @@ export const ScrollToRef = ({ target }: Props) => (
         component="a"
         onClick={() => scroll(target)}
       >
-        <KeyboardArrowDownIcon />
+        <KeyboardArrowDownIcon fontSize="large" />
       </IconButton>
     </Grid>
   </div>

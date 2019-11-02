@@ -1,14 +1,16 @@
 import React from 'react'
 import { Grid, useTheme, Theme } from '@material-ui/core'
+import { useSpring, animated } from 'react-spring'
 
 import { Item } from './Item'
+import { slideIn } from '../animations'
 
 export const Pricing = () => {
   const theme = useTheme<Theme>()
 
   return (
     <>
-      <section className="pricing">
+      <section>
         <Grid container spacing={6} alignItems="center">
           <Grid item xs={12} sm={4}>
             <Item

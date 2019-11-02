@@ -20,20 +20,22 @@ export const Yoga = forwardRef<HTMLElement>((_, ref) => {
                 Kundalini Yoga
               </Typography>
               <Typography variant="body1" paragraph>
-                Lorem olor, sit amet consectetur adipisicing elit.Saepe m
-                consequatur ipsa exercitationem <strong>nisi vitae</strong> do m
-                harum voluptate adipisci eligendi sed, obcaecati, a quaerat.
-                Vitae, quos itaque.
+                Kundalini Yoga, as taught by <strong>Yogi Bhajan</strong>, is a
+                powerful technology that consists of asanas, breathing
+                techniques, mudras (hand positions), bhandas (locks in the
+                body), mantras and meditation.
               </Typography>
               <Typography variant="body1" paragraph>
-                ipsum dolor, sit amet consectetur adipisicing elit.culpa eum
-                onsequatur ipsa exercitationem nisi aboriosam harum voluptate
-                adipisci eligendi sed, obcaecati, a quaerat.Vitae, quos itaque.
+                The purpose of Kundalini Yoga is to achieve alignment between
+                soul, body and mind so the person can be “happy, holy and
+                healthy” as Yogi Bhajan used to say. When done regularly,
+                Kundalini Yoga brings positive changes to one’s life because it
+                affects not only the physical body but also the consciousness.
               </Typography>
               <Typography variant="body1" paragraph>
-                ipsum dolor, sit amet consectetur adipisicing elit.culpa eum
-                onsequatur ipsa exercitationem nisi aboriosam harum voluptate
-                adipisci eligendi sed, obcaecati, a quaerat.Vitae, quos itaque.
+                There are many different types of Kundalini Yoga class, some
+                quite physical, others more meditative. They all move energy in
+                the body, release tension and allow the flow of life to come in.
               </Typography>
             </Grid>
           </Grid>

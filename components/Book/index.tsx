@@ -7,7 +7,7 @@ import { Footer } from '../Footer'
 
 const Home = () => (
   <>
-    <Meta title="Savitri Avtar Kaur - Kundalini Yoga" />
+    <Meta title="Private Kundalini Yoga London - Savitri Avtar Kaur" />
     <App>
       <Body />
     </App>
