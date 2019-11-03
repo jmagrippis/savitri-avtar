@@ -26,7 +26,9 @@ export const Item = ({ id, name, price, description, per }: Props) => {
 
   const onBook = async () => {
     setLoading(true)
-    await checkout(id)
+
+    await checkout(id).catch(console.log)
+
     setLoading(false)
   }
 
