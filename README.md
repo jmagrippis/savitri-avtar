@@ -1,3 +1,3 @@
 # Savitri Avtar
 
-Showcase and booking static site for a yogi, using Next.
+Fullstack showcase and booking app for a Kundalini yogi.

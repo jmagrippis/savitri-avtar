@@ -1,0 +1,24 @@
+{
+  "name": "savitri-avtar-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.5.2",
+    "@material-ui/icons": "^4.5.1",
+    "next": "9.1.2",
+    "react": "16.11.0",
+    "react-dom": "16.11.0",
+    "react-spring": "^8.0.27"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.5",
+    "@types/react": "^16.9.11",
+    "now": "^16.4.4",
+    "typescript": "^3.6.4"
+  }
+}
