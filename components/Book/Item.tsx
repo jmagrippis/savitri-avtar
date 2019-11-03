@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {
   Typography,
   Button,
@@ -7,17 +7,28 @@ import {
   CardActions,
   useTheme,
   Theme,
+  CircularProgress,
 } from '@material-ui/core'
 
+import { checkout } from './checkout'
+
 type Props = {
+  id: string
   name: string
   price: string
   description: string
   per?: string
 }
 
-export const Item = ({ name, price, description, per }: Props) => {
+export const Item = ({ id, name, price, description, per }: Props) => {
   const theme = useTheme<Theme>()
+  const [loading, setLoading] = useState(false)
+
+  const onBook = async () => {
+    setLoading(true)
+    await checkout(id)
+    setLoading(false)
+  }
 
   return (
     <>
@@ -41,8 +52,14 @@ export const Item = ({ name, price, description, per }: Props) => {
           </Typography>
         </CardContent>
         <CardActions>
-          <Button variant="contained" color="secondary" size="large" fullWidth>
-            Book
+          <Button
+            variant="contained"
+            color="secondary"
+            size="large"
+            fullWidth
+            onClick={onBook}
+          >
+            {loading ? <CircularProgress size={26} /> : 'Book'}
           </Button>
         </CardActions>
       </Card>

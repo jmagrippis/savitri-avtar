@@ -1,0 +1,10 @@
+{
+  "env": {
+    "STRIPE_SECRET": "@stripe-secret"
+  },
+  "build": {
+    "env": {
+      "STRIPE_PUB": "@stripe-pub"
+    }
+  }
+}
