@@ -1,4 +1,10 @@
 {
   "version": 2,
-  "builds": [{ "src": "www/package.json", "use": "@now/next@canary" }]
+  "builds": [{ "src": "www/package.json", "use": "@now/next@canary" }],
+  "routes": [
+    {
+      "src": "^(.*)$",
+      "dest": "www$1"
+    }
+  ]
 }
