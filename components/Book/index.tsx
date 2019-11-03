@@ -12,7 +12,6 @@ const Book = () => (
       <Body />
     </App>
     <Footer />
-    <script defer src="https://js.stripe.com/v3/" />
   </>
 )
 
