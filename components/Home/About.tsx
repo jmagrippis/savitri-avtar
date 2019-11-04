@@ -17,23 +17,35 @@ export const About = forwardRef<HTMLElement>((_, ref) => {
           <Grid item sm={5}>
             <Grid item>
               <Typography variant="h4" component="h2" gutterBottom>
-                About Savitri
+                About Me
               </Typography>
               <Typography variant="body1" paragraph>
-                <strong>Savitri Avtar Kaur</strong> is a Kundalini yogi. Lorem
-                olor, sit amet consectetur adipisicing elit.Saepe m consequatur
-                ipsa exercitationem nisi vitae do m harum voluptate adipisci
-                eligendi sed, obcaecati, a quaerat.Vitae, quos itaque.
+                I am an International KRI certified Kundalini Yoga teacher and a
+                licensed IKYTA Teacher for Children. My passion for yoga started
+                in 2010 when I first practiced Sivananda Yoga. Several years
+                later I discovered <strong>Kundalini Yoga</strong> and
+                immediately experienced how its techniques impacted positively
+                all aspects of my life.
               </Typography>
               <Typography variant="body1" paragraph>
-                ipsum dolor, sit amet consectetur adipisicing elit.culpa eum
-                onsequatur ipsa exercitationem nisi aboriosam harum voluptate
-                adipisci eligendi sed, obcaecati, a quaerat.Vitae, quos itaque.
+                The transformation was so significant that I decided to take the
+                Level 1 teacher training at the Sahej Academy and later, in
+                order to deepen my knowledge of yoga and meditation, enrolled
+                into Level 2: the advanced training for Kundalini Yoga teachers.
+                I was blessed to train with some of the best teachers in the UK
+                and direct students of <strong>Yogi Bhajan</strong>, the Master
+                of Kundalini Yoga from India.
               </Typography>
               <Typography variant="body1" paragraph>
-                ipsum dolor, sit amet consectetur adipisicing elit.culpa eum
-                onsequatur ipsa exercitationem nisi aboriosam harum voluptate
-                adipisci eligendi sed, obcaecati, a quaerat.Vitae, quos itaque.
+                For the last four years yoga, both teaching and practicing, has
+                been an integral part of my life, and I am very grateful that I
+                can share this wonderful technology with you.
+              </Typography>
+              <Typography variant="body1" paragraph>
+                Amongst my other passions are teaching yoga to children, the
+                practice of Numerology (a system for revealing one’s strengths
+                and challenges that can show the true path), and playing the
+                Gong.
               </Typography>
             </Grid>
           </Grid>

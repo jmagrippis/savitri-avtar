@@ -6,9 +6,11 @@ import { About } from './About'
 import { Yoga } from './Yoga'
 import { ScrollToRef } from '../ScrollToRef/ScrollToRef'
 import { Classes } from './Classes'
+import { Approach } from './Approach'
 
 export const Body = () => {
   const aboutRef = useRef(null)
+  const approachRef = useRef(null)
   const yogaRef = useRef(null)
   const classesRef = useRef(null)
 
@@ -22,6 +24,11 @@ export const Body = () => {
 
         <div className="page">
           <About ref={aboutRef} />
+          <ScrollToRef target={approachRef} />
+        </div>
+
+        <div className="page">
+          <Approach ref={approachRef} />
           <ScrollToRef target={yogaRef} />
         </div>
 

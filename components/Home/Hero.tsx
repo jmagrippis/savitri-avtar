@@ -42,32 +42,17 @@ export const Hero = () => {
               </Grid>
             </Grid>
             <Grid item sm={7}>
-              <Grid item>
-                <Grid container spacing={1} direction="column">
-                  <Grid item>
-                    <Typography variant="h4" component="p">
-                      Private classes tailored around your needs.
-                    </Typography>
-                  </Grid>
-                  <Grid item>
-                    <Typography variant="h4" component="p">
-                      Regain balance, find peace, re-energise your body and
-                      allow the flow of life to come in.
-                    </Typography>
-                  </Grid>
+              <Grid container spacing={6} direction="column">
+                <Grid item>
+                  <Typography variant="h4" component="p">
+                    Private Kundalini Yoga sessions tailored around your needs
+                  </Typography>
+                </Grid>
 
-                  <Grid item>
-                    <Typography variant="h4" component="p">
-                      You are in the right place.
-                    </Typography>
-                  </Grid>
+                <Grid item>
+                  <Actions sm={5} />
                 </Grid>
               </Grid>
-            </Grid>
-
-            <Grid item sm={5}></Grid>
-            <Grid item sm={7}>
-              <Actions sm={5} />
             </Grid>
           </Grid>
         </animated.div>
