@@ -8,7 +8,7 @@ export const Pricing = () => {
 
   return (
     <>
-      <section>
+      <section className="pricing">
         <Grid container spacing={6} alignItems="center">
           <Grid item xs={12} sm={4}>
             <Item
@@ -40,8 +40,7 @@ export const Pricing = () => {
       </section>
       <style jsx>{`
         .pricing {
-          width: 100%;
-          padding: ${theme.spacing(12)}px 0;
+          padding: ${theme.spacing(3)}px 0;
         }
       `}</style>
     </>
