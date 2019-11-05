@@ -25,8 +25,8 @@ const checkoutHandler = async (req: NowRequest, res: NowResponse) => {
     payment_intent_data: {
       capture_method: 'manual',
     },
-    success_url: `${root}/success?session_id={CHECKOUT_SESSION_ID}`,
-    cancel_url: `${root}/cancel`,
+    success_url: `${root}/book/success?session_id={CHECKOUT_SESSION_ID}`,
+    cancel_url: `${root}/book/cancelled`,
   })
 
   res.status(201)
