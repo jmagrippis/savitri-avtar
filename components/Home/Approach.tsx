@@ -40,7 +40,7 @@ export const Approach = forwardRef<HTMLElement>((_, ref) => {
           flex: 1 0;
           display: flex;
           align-items: center;
-          padding: ${theme.spacing(6)}px 0;
+          padding: ${theme.spacing(3)}px;
         }
 
         .image img {

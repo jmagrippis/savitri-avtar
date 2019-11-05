@@ -40,7 +40,7 @@ export const Pricing = () => {
       </section>
       <style jsx>{`
         .pricing {
-          padding: ${theme.spacing(3)}px 0;
+          padding: ${theme.spacing(3)}px;
         }
       `}</style>
     </>

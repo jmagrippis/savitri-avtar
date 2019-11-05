@@ -48,6 +48,7 @@ export const Body = () => {
       <style jsx>{`
         .page {
           min-height: calc(100vh - 64px);
+          padding-top: 64px;
           display: flex;
           flex-direction: column;
           align-items: center;

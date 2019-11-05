@@ -1,5 +1,6 @@
 import React, { forwardRef } from 'react'
 import { Grid, Typography, useTheme, Theme } from '@material-ui/core'
+
 import { Actions } from './Actions'
 
 export const Classes = forwardRef<HTMLElement>((_, ref) => {
@@ -7,7 +8,7 @@ export const Classes = forwardRef<HTMLElement>((_, ref) => {
 
   return (
     <>
-      <section className="about" ref={ref}>
+      <section className="classes" ref={ref}>
         <Grid container spacing={6} alignItems="center">
           <Grid item sm={7}>
             <div className="image">
@@ -18,13 +19,13 @@ export const Classes = forwardRef<HTMLElement>((_, ref) => {
           <Grid item sm={5}>
             <Grid item>
               <Typography variant="h4" component="h2" gutterBottom>
-                Private Yoga Sessions
+                Private Sessions
               </Typography>
               <Typography variant="body1" paragraph>
                 If you feel stuck and you need a change, or you feel that you
                 live someone else&#39;s life and you want to find your own path
-                and happiness, and you are ready to commit, private Kundalini
-                Yoga sessions are for you.
+                and happiness, and you are ready to commit,{' '}
+                <strong>private Kundalini Yoga sessions</strong> are for you.
               </Typography>
 
               <Typography variant="body1" paragraph>
@@ -50,11 +51,11 @@ export const Classes = forwardRef<HTMLElement>((_, ref) => {
       </section>
 
       <style jsx>{`
-        .about {
+        .classes {
           flex: 1 0;
           display: flex;
           align-items: center;
-          padding: ${theme.spacing(6)}px 0;
+          padding: ${theme.spacing(3)}px;
         }
 
         .image img {
