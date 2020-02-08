@@ -8,9 +8,7 @@ import { Footer } from '../Footer'
 const Faq = () => (
   <>
     <Meta title="Frequently Asked Questions - Savitri Avtar Kaur" />
-    <App>
-      <Body />
-    </App>
+    <Body />
     <Footer />
   </>
 )

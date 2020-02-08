@@ -1,16 +1,13 @@
 import * as React from 'react'
+import { AppProps } from 'next/app'
 import { ThemeProvider } from '@material-ui/core/styles'
 
 import { theme } from './theme'
 import { Header } from './Header'
 
-type Props = {
-  children: React.ReactNode
-}
-
-export const App = ({ children }: Props) => (
+export const App = ({ Component, pageProps }: AppProps) => (
   <ThemeProvider theme={theme}>
     <Header />
-    {children}
+    <Component {...pageProps} />
   </ThemeProvider>
 )

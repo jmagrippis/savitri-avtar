@@ -3,14 +3,11 @@ import React from 'react'
 import { Body } from './Body'
 import { Meta } from '../Meta'
 import { Footer } from '../Footer'
-import { App } from '../App'
 
 const Home = () => (
   <>
     <Meta title="Savitri Avtar Kaur - Private Kundalini Yoga" />
-    <App>
-      <Body />
-    </App>
+    <Body />
     <Footer />
   </>
 )
