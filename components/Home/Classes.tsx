@@ -1,8 +1,6 @@
 import React, { forwardRef } from 'react'
 import { Grid, Typography, useTheme, Theme } from '@material-ui/core'
 
-import { Actions } from './Actions'
-
 export const Classes = forwardRef<HTMLElement>((_, ref) => {
   const theme = useTheme<Theme>()
 
@@ -12,7 +10,7 @@ export const Classes = forwardRef<HTMLElement>((_, ref) => {
         <Grid container spacing={6} alignItems="center">
           <Grid item sm={7}>
             <div className="image">
-              <img src="/about.jpg" />
+              <img src="/images/about.jpg" />
             </div>
           </Grid>
 
@@ -21,10 +19,18 @@ export const Classes = forwardRef<HTMLElement>((_, ref) => {
               <Typography variant="h4" component="h2" gutterBottom>
                 Private Sessions
               </Typography>
+              <Typography
+                variant="h5"
+                component="h3"
+                color="primary"
+                gutterBottom
+              >
+                Bring more happiness to your life
+              </Typography>
               <Typography variant="body1" paragraph>
                 If you feel stuck and you need a change, or you feel that you
-                live someone else&#39;s life and you want to find your own path
-                and happiness, and you are ready to commit,{' '}
+                live someone else’s life and you want to find your own path and
+                happiness, and you are ready to commit,{' '}
                 <strong>private Kundalini Yoga sessions</strong> are for you.
               </Typography>
 
@@ -44,7 +50,6 @@ export const Classes = forwardRef<HTMLElement>((_, ref) => {
               <Typography variant="body1" paragraph>
                 Sat Nam.
               </Typography>
-              <Actions sm={6} />
             </Grid>
           </Grid>
         </Grid>

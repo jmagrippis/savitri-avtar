@@ -10,7 +10,7 @@ export const Yoga = forwardRef<HTMLElement>((_, ref) => {
         <Grid container spacing={6} alignItems="center">
           <Grid item sm={7}>
             <div className="image">
-              <img src="/about.jpg" />
+              <img src="/images/about.jpg" />
             </div>
           </Grid>
 
@@ -19,18 +19,29 @@ export const Yoga = forwardRef<HTMLElement>((_, ref) => {
               <Typography variant="h4" component="h2" gutterBottom>
                 Kundalini Yoga
               </Typography>
+              <Typography
+                variant="h5"
+                component="h3"
+                color="primary"
+                gutterBottom
+              >
+                Sacred Teachings
+              </Typography>
               <Typography variant="body1" paragraph>
                 Kundalini Yoga as taught by Yogi Bhajan is a powerful technology
                 that consists of asanas, breathing techniques, mudras (hand
                 positions), bhandas (locks in the body), mantras and meditation.
                 The purpose of Kundalini Yoga is to achieve alignment between
                 soul, body and mind so the person can be “happy, holy and
-                healthy” as Yogi Bhajan used to say. If done regularly Kundalini
-                Yoga brings positive changes to one’s life because it affects
-                not only the physical body but also the consciousness.  
+                healthy” as Yogi Bhajan used to say.
               </Typography>
               <Typography variant="body1" paragraph>
-                There are many different types of Kundalini Yoga class, some
+                If done regularly Kundalini Yoga brings positive changes to
+                one’s life because it affects not only the physical body but
+                also the consciousness.  
+              </Typography>
+              <Typography variant="body1" paragraph>
+                There are many different types of Kundalini Yoga session, some
                 quite physical, others more meditative yet they all move energy
                 in the body, release tension and allow the flow of life to come
                 in.

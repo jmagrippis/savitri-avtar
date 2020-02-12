@@ -1,6 +1,8 @@
 import React, { forwardRef } from 'react'
 import { Grid, Typography, useTheme, Theme } from '@material-ui/core'
 
+import { Actions } from './Actions'
+
 export const Approach = forwardRef<HTMLElement>((_, ref) => {
   const theme = useTheme<Theme>()
 
@@ -10,7 +12,7 @@ export const Approach = forwardRef<HTMLElement>((_, ref) => {
         <Grid container spacing={6} alignItems="center">
           <Grid item sm={7}>
             <div className="image">
-              <img src="/about.jpg" />
+              <img src="/images/about.jpg" />
             </div>
           </Grid>
 
@@ -30,6 +32,7 @@ export const Approach = forwardRef<HTMLElement>((_, ref) => {
                 your guide, share my knowledge and provide an uplifting
                 experience.
               </Typography>
+              <Actions sm={6} />
             </Grid>
           </Grid>
         </Grid>

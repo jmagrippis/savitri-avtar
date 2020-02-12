@@ -14,26 +14,26 @@ export const Pricing = () => {
             <Item
               id="privateSingle"
               name="Private"
-              price="£150"
-              description="Lorem olor, sit amet consectetur adipisicing elit me consequatur ipsa exercitation"
+              price="£119"
+              description="Chose this option to experience Kundalini yoga without further commitments."
             />
           </Grid>
           <Grid item xs={12} sm={4}>
             <Item
-              id="packageFourX"
-              name="4x Package"
-              price="£125"
-              per="class"
-              description="Commit to 4 classes and get 25% off amet consectetur adipisicing amet consectetur adipisicing"
+              id="packageFiveX"
+              name="5x Package"
+              price="£99"
+              per="session"
+              description="Commit to 5 sessions of Kundalini yoga and save £100 versus buying them individually."
             />
           </Grid>
           <Grid item xs={12} sm={4}>
             <Item
               id="privatePlusOne"
               name="Private +1"
-              price="£100"
+              price="£89"
               per="person"
-              description="Practice with a friend amet consectetur adipisicing amet consectetur adipisicing amet consectetur adipisicing"
+              description="Practice with your partner or bring a friend. Share the experience and effect of Kundalini yoga, at a lower cost per person."
             />
           </Grid>
         </Grid>

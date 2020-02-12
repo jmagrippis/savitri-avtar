@@ -19,8 +19,18 @@ export const Body = () => {
       <Container>
         <main className="page">
           <Hero />
-          <ScrollToRef target={aboutRef} />
+          <ScrollToRef target={classesRef} />
         </main>
+
+        <div className="page">
+          <Classes ref={classesRef} />
+          <ScrollToRef target={yogaRef} />
+        </div>
+
+        <div className="page">
+          <Yoga ref={yogaRef} />
+          <ScrollToRef target={aboutRef} />
+        </div>
 
         <div className="page">
           <About ref={aboutRef} />
@@ -29,16 +39,6 @@ export const Body = () => {
 
         <div className="page">
           <Approach ref={approachRef} />
-          <ScrollToRef target={yogaRef} />
-        </div>
-
-        <div className="page">
-          <Yoga ref={yogaRef} />
-          <ScrollToRef target={classesRef} />
-        </div>
-
-        <div className="page">
-          <Classes ref={classesRef} />
         </div>
       </Container>
 
