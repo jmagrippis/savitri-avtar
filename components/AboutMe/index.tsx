@@ -4,12 +4,12 @@ import { Meta } from '../Meta'
 import { Body } from './Body'
 import { Footer } from '../Footer'
 
-const Faq = () => (
+const AboutMe = () => (
   <>
-    <Meta title="Frequently Asked Questions - Savitri Avtar Kaur" />
+    <Meta title="About Me - Savitri Avtar Kaur" />
     <Body />
     <Footer />
   </>
 )
 
-export default Faq
+export default AboutMe

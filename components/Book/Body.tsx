@@ -19,9 +19,9 @@ export const Body = () => {
             </Typography>
 
             <Typography variant="body1" paragraph>
-              Before the first session we can schedule a call or a short 20
-              minutes meeting where we can get to know each other and you can
-              let me know about your goals for the practice.
+              Before the first session we can schedule a call or a short online
+              meeting where we can get to know each other and you can let me
+              know about your goals for the practice.
             </Typography>
             <Typography variant="h5" component="p" paragraph>
               You may <a href="tel:+447481471596">call me</a>, or{' '}
@@ -34,12 +34,6 @@ export const Body = () => {
               for the package you wish to purchase and I will contact you to
               arrange the time and place.
             </Typography>
-            <Typography variant="body1" paragraph>
-              The money will not be withdrawn from your account immediately;
-              they will be reserved but taken only after we have agreed on the
-              specifics for the session (time and place).
-            </Typography>
-
             <Pricing />
           </main>
         </animated.div>

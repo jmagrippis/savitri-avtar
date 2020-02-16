@@ -1,5 +1,6 @@
 import React, { forwardRef } from 'react'
-import { Grid, Typography, useTheme, Theme } from '@material-ui/core'
+import Link from 'next/link'
+import { Grid, Typography, Button, useTheme, Theme } from '@material-ui/core'
 
 export const About = forwardRef<HTMLElement>((_, ref) => {
   const theme = useTheme<Theme>()
@@ -35,6 +36,14 @@ export const About = forwardRef<HTMLElement>((_, ref) => {
                 <strong>Kundalini Yoga</strong> and immediately experienced how
                 its techniques impacted positively all aspects of my life.
               </Typography>
+            </Grid>
+
+            <Grid item>
+              <Link href="/about-me">
+                <Button variant="outlined" color="secondary" size="large">
+                  Read more
+                </Button>
+              </Link>
             </Grid>
           </Grid>
         </Grid>
