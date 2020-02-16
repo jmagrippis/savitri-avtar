@@ -58,7 +58,7 @@ export const Body = () => {
               variant="outlined"
               color="secondary"
               size="large"
-              href="mailto:savitriavtar@gmail.com"
+              href="mailto:savitriavtar@gmail.com?subject=Private Kundalini Yoga Sessions"
               target="_blank"
             >
               Contact me directly

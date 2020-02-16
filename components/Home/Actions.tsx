@@ -31,7 +31,7 @@ export const Actions = ({ sm }: Props) => {
               color="secondary"
               size="large"
               fullWidth
-              href="mailto:savitriavtar@gmail.com"
+              href="mailto:savitriavtar@gmail.com?subject=Private Kundalini Yoga Sessions"
               target="_blank"
             >
               Contact

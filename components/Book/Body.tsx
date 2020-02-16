@@ -1,8 +1,14 @@
 import React from 'react'
-import { Container, Typography, useTheme, Theme } from '@material-ui/core'
+import {
+  Container,
+  Typography,
+  useTheme,
+  Theme,
+  Button,
+} from '@material-ui/core'
+import Link from 'next/link'
 import { useSpring, animated } from 'react-spring'
 
-import { Pricing } from './Pricing'
 import { slideIn } from '../animations'
 
 export const Body = () => {
@@ -18,23 +24,64 @@ export const Body = () => {
               Book a session
             </Typography>
 
-            <Typography variant="body1" paragraph>
-              Before the first session we can schedule a call or a short online
-              meeting where we can get to know each other and you can let me
-              know about your goals for the practice.
+            <Typography
+              variant="h4"
+              component="h2"
+              color="primary"
+              gutterBottom
+            >
+              How does it work?
             </Typography>
+
+            <Typography variant="h5" component="p" paragraph>
+              <strong>1.</strong> Before we meet for the first session we’ll
+              schedule a brief phone, Skype or Zoom consultation. We’ll discuss
+              the details to make sure we are the right fit.
+            </Typography>
+
+            <Typography variant="h5" component="p" paragraph>
+              <strong>2.</strong> Next, we do an introductory session to get to
+              know each other and assess what you are looking for in a yoga
+              practice.
+            </Typography>
+
+            <Typography variant="h5" component="p" paragraph>
+              <strong>3.</strong> After that we create a plan to work together
+              once, twice or three times per week. All sessions are going to be
+              tailored around your needs, goals and schedule.
+            </Typography>
+
+            <Typography variant="h5" component="p" paragraph>
+              <strong>
+                I ask for a commitment for at least three months to start.
+              </strong>
+            </Typography>
+
+            <Button
+              variant="contained"
+              color="secondary"
+              size="large"
+              href="mailto:savitriavtar@gmail.com?subject=Private Kundalini Yoga Sessions"
+              target="_blank"
+            >
+              Contact me
+            </Button>
+
+            <div className="faq">
+              <Typography variant="h5" component="p" paragraph>
+                For more information please read{' '}
+                <Link href="/faq">
+                  <a>the FAQ section</a>
+                </Link>
+                .
+              </Typography>
+            </div>
+
             <Typography variant="h5" component="p" paragraph>
               You may <a href="tel:+447481471596">call me</a>, or{' '}
               <a href="savitriavtar@gmail.com">email me</a> to make
               arrangements, or with your questions.
             </Typography>
-            <Typography variant="body1" paragraph>
-              If you prefer to book a session directly and meet for the
-              practice, it is also possible. Just press the book button below
-              for the package you wish to purchase and I will contact you to
-              arrange the time and place.
-            </Typography>
-            <Pricing />
           </main>
         </animated.div>
       </Container>
@@ -52,6 +99,10 @@ export const Body = () => {
         .page a {
           font-weight: bolder;
           color: ${theme.palette.primary.main};
+        }
+
+        .faq {
+          margin-top: ${theme.spacing(3)}px;
         }
       `}</style>
     </>
