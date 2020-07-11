@@ -34,27 +34,27 @@ export const Body = () => {
             </Typography>
 
             <Typography variant="h5" component="p" paragraph>
-              <strong>1.</strong> Before we meet for the first session we’ll
-              schedule a brief phone, Skype or Zoom consultation. We’ll discuss
-              the details to make sure we are the right fit.
+              Before the first yoga session we’ll schedule a brief Zoom or Skype
+              consultation when we will discuss your goals for the practice and
+              what results you would like to receive.
             </Typography>
 
             <Typography variant="h5" component="p" paragraph>
-              <strong>2.</strong> Next, we do an introductory session to get to
-              know each other and assess what you are looking for in a yoga
-              practice.
+              Kundalini yoga is closely connected to a type of Numerology, so I
+              may ask you to tell me your date of birth in order to understand
+              what are your natural gifts, how yoga can highlight them, and what
+              areas you may need to work on.
             </Typography>
 
             <Typography variant="h5" component="p" paragraph>
-              <strong>3.</strong> After that we create a plan to work together
-              once, twice or three times per week. All sessions are going to be
-              tailored around your needs, goals and schedule.
+              If we are the right fit, we'll do the first yoga session, decide
+              how often we wish to work together and I’ll design a special
+              program that will help you achieve positive results not only in
+              your yoga practice but also in life.
             </Typography>
 
             <Typography variant="h5" component="p" paragraph>
-              <strong>
-                I ask for a commitment for at least three months to start.
-              </strong>
+              The success of my students is my success!
             </Typography>
 
             <Button
@@ -69,19 +69,18 @@ export const Body = () => {
 
             <div className="faq">
               <Typography variant="h5" component="p" paragraph>
-                For more information please read{' '}
+                For more information please{' '}
                 <Link href="/faq">
-                  <a>the FAQ section</a>
+                  <a>read the FAQ section</a>
                 </Link>
                 .
               </Typography>
+              <Typography variant="h5" component="p" paragraph>
+                If some of your questions weren’t answered you may{' '}
+                <a href="tel:+447481471596">call me</a> or{' '}
+                <a href="savitriavtar@gmail.com">email me</a> directly.
+              </Typography>
             </div>
-
-            <Typography variant="h5" component="p" paragraph>
-              You may <a href="tel:+447481471596">call me</a>, or{' '}
-              <a href="savitriavtar@gmail.com">email me</a> to make
-              arrangements, or with your questions.
-            </Typography>
           </main>
         </animated.div>
       </Container>

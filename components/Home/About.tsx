@@ -25,7 +25,7 @@ export const About = forwardRef<HTMLElement>((_, ref) => {
                 licensed IKYTA Teacher for Children.
               </Typography>
               <Typography variant="body1" paragraph>
-                I specialise on working with people who want to regain balance
+                I specialise in working with people who want to regain balance
                 after experiencing stress, anxiety, inner emptiness or emotional
                 burnouts. I help them achieve change through yoga and
                 meditation.

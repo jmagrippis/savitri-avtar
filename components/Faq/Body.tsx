@@ -18,6 +18,20 @@ export const Body = () => {
 
             <div>
               <Typography variant="h5" component="h2" paragraph>
+                How do online sessions work?
+              </Typography>
+              <Typography variant="body1" paragraph>
+                Online sessions are held via Zoom. Before the practice I’ll send
+                you the unique link and the password via email for you to be
+                able to access the session at the agreed time.
+              </Typography>
+              <Typography variant="body1" paragraph>
+                You would need to make sure you have some space at your home or
+                location to practice yoga, ideally in a quiet environment where
+                you wouldn’t be disturbed or distracted during the meditation.
+              </Typography>
+
+              <Typography variant="h5" component="h2" paragraph>
                 What to expect in a session?
               </Typography>
               <Typography variant="body1" paragraph>
@@ -31,7 +45,7 @@ export const Body = () => {
               </Typography>
 
               <Typography variant="h5" component="h2" paragraph>
-                Duration the session
+                How long are the sessions?
               </Typography>
               <Typography variant="body1" paragraph>
                 The duration of each session is between 1 hour - 1 hour 15
@@ -43,7 +57,7 @@ export const Body = () => {
               </Typography>
 
               <Typography variant="h5" component="h2" paragraph>
-                Previous experience and levels of preparation
+                What’s the level of experience I need?
               </Typography>
               <Typography variant="body1" paragraph>
                 You do not need to have any previous experience of yoga. We will

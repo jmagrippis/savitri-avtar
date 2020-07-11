@@ -25,7 +25,7 @@ export const Classes = forwardRef<HTMLElement>((_, ref) => {
                 color="primary"
                 gutterBottom
               >
-                Bring more happiness to your life
+                Bring more balance to your life
               </Typography>
               <Typography variant="body1" paragraph>
                 If you feel stuck and you need a change, or you feel that you

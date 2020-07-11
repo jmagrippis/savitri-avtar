@@ -22,7 +22,7 @@ export const Body = () => {
                 licensed IKYTA Teacher for children.
               </Typography>
               <Typography variant="body1" paragraph>
-                I specialise on working with people who want to regain balance
+                I specialise in working with people who want to regain balance
                 after experiencing stress, anxiety, inner emptiness or emotional
                 burn outs and want to change through the practice of yoga and
                 meditation.
@@ -40,17 +40,15 @@ export const Body = () => {
                 into Level 2: the advanced training for Kundalini Yoga teachers.
               </Typography>
               <Typography variant="body1" paragraph>
-                I was blessed to train with some of the best teachers in the UK
-                and direct students of Yogi Bhajan, the Master of Kundalini Yoga
-                from India.
+                For the last six years yoga, both teaching and practicing, has
+                been an integral part of my life, and I am very grateful I can
+                share this wonderful technology with you.
               </Typography>
               <Typography variant="body1" paragraph>
-                For the last four years yoga, both teaching and practicing, has
-                been an integral part of my life, and I am very grateful I can
-                share this wonderful technology with you. Amongst my other
-                passions are teaching yoga to children, the practice of
-                Numerology (a system for revealing one’s strengths and
-                challenges that can show the true path), and playing the Gong.
+                Amongst my other passions are teaching yoga to children, the
+                practice of Numerology (a system for revealing one’s strengths
+                and challenges that can show the true path), and playing the
+                Gong.
               </Typography>
             </div>
 
@@ -61,7 +59,7 @@ export const Body = () => {
               href="mailto:savitriavtar@gmail.com?subject=Private Kundalini Yoga Sessions"
               target="_blank"
             >
-              Contact me directly
+              Contact me
             </Button>
           </main>
         </animated.div>
