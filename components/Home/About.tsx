@@ -11,7 +11,7 @@ export const About = forwardRef<HTMLElement>((_, ref) => {
         <Grid container spacing={6} alignItems="center">
           <Grid item sm={7}>
             <div className="image">
-              <img src="/images/about.jpg" />
+              <img src="/images/approach.jpg" />
             </div>
           </Grid>
 

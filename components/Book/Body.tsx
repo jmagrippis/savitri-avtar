@@ -81,6 +81,8 @@ export const Body = () => {
                 <a href="savitriavtar@gmail.com">email me</a> directly.
               </Typography>
             </div>
+
+            <img className="hero-image" src="/images/gong.jpg" />
           </main>
         </animated.div>
       </Container>
@@ -102,6 +104,18 @@ export const Body = () => {
 
         .faq {
           margin-top: ${theme.spacing(3)}px;
+        }
+
+        .hero-image {
+          max-width: 100%;
+          border-radius: 8px;
+          padding: ${theme.spacing(3)}px 0;
+        }
+
+        @media (min-width: 768px) {
+          .hero-image {
+            max-width: 50%;
+          }
         }
       `}</style>
     </>
