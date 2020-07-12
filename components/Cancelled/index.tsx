@@ -6,7 +6,7 @@ import { Footer } from '../Footer'
 
 const Cancelled = () => (
   <>
-    <Meta title="Payment cancelled - Savitri Avtar Kaur" />
+    <Meta title="Payment cancelled - Private Kundalini Yoga & Meditation" />
     <Body />
     <Footer />
   </>

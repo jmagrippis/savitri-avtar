@@ -11,7 +11,7 @@ export const Meta = ({ title }: Props) => (
       <title>{title}</title>
       <meta
         name="description"
-        content="Change your life with Kundalini Yoga, with me as your guide"
+        content="Private Kundalini yoga sessions online and in Central London, tailored around your needs. Regain balance and joy from the comfort of your own home."
       />
       <link rel="icon" href="/favicon.ico" />
       <link

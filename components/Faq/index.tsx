@@ -6,7 +6,7 @@ import { Footer } from '../Footer'
 
 const Faq = () => (
   <>
-    <Meta title="Frequently Asked Questions - Savitri Avtar Kaur" />
+    <Meta title="Frequently Asked Questions - Private Kundalini Yoga & Meditation" />
     <Body />
     <Footer />
   </>

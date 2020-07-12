@@ -3,7 +3,7 @@ import * as React from 'react'
 export const Footer = () => (
   <>
     <footer className="container">
-      Copyright &copy;{new Date().getFullYear()} Savitri Avtar Kaur
+      Copyright &copy;{new Date().getFullYear()} Savitri Avtar
     </footer>
     <style jsx>{`
       .container {
